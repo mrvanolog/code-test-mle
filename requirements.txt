@@ -1,2 +1,4 @@
 torch
-numpy
+numpy<2
+pandas
+tqdm
