@@ -1,2 +1,3 @@
 customers_generated*
 *.direnv
+.DS_Store
