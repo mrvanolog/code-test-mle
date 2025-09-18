@@ -3,6 +3,8 @@
 
 This document outlines the design, analysis, and conclusions for the simple model inference server created in `part2.py`.
 
+You can start the server by running `python part2.py` in the command line. The server will be available at http://127.0.0.1:8000.
+
 ### 1. Motivation and High-Level Goal
 
 The primary goal of this task was to take the trained PyTorch model (`fraud_prevention_model.pt`) and make it accessible for real-time predictions. A script that just runs and exits is insufficient for this; we need a persistent service that can respond to requests on demand.
